@@ -83,6 +83,7 @@ end
   end
 
 =begin
+## friends can not be accessed off of client
   def everyones_last_tweet
     friends = client.friends
     #friend = friends.first
